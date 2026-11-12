@@ -11,6 +11,7 @@ coverage/
 *.pem
 *.key
 .mcp-tokens.json
+.shopping-lists.json
 
 # Expo / React Native
 .expo/
@@ -32,3 +33,9 @@ android/app/build/
 *.log
 npm-debug.log*
 yarn-error.log*
+
+# Ad-hoc MCP probe dumps — contain live account data
+probe*.json
+
+# Phone screenshots from competitor research (personal account, third-party app)
+docs/expiriments/

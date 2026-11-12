@@ -1,0 +1,74 @@
+[
+  {
+    "id": 530007412,
+    "active": true,
+    "description": "за батончик злаковий Lion™",
+    "beginDate": "2026-08-05",
+    "endDate": "2026-08-11",
+    "rewardText": "x30 балобонусів",
+    "rewardValue": 30,
+    "usedCount": 0
+  },
+  {
+    "id": 530007413,
+    "active": true,
+    "description": "за круасани PREMIA™",
+    "beginDate": "2026-08-05",
+    "endDate": "2026-08-11"
+  },
+  {
+    "id": 530007414,
+    "active": true,
+    "description": "за соки Jaffa™",
+    "beginDate": "2026-08-05",
+    "endDate": "2026-08-11"
+  },
+  {
+    "id": 530007945,
+    "active": true,
+    "description": "Сир кисломолочний President Сирна Традиція 5% ванночка, 220г",
+    "beginDate": "2026-08-09",
+    "endDate": "2026-08-13",
+    "rewardText": "за 1 грн",
+    "rewardValue": 1,
+    "usedCount": 0
+  },
+  {
+    "id": 529907581,
+    "active": false,
+    "description": "на покупку",
+    "beginDate": "2026-08-08",
+    "endDate": "2026-08-15"
+  },
+  {
+    "id": 530007895,
+    "active": true,
+    "description": "за продукти, які не містять доданого цукор",
+    "beginDate": "2026-08-09",
+    "endDate": "2026-08-15",
+    "rewardText": "+20 балобонусів",
+    "rewardValue": 20,
+    "usedCount": 0
+  },
+  {
+    "id": 530007896,
+    "active": true,
+    "description": "за алкогольні напої",
+    "beginDate": "2026-08-09",
+    "endDate": "2026-08-15"
+  },
+  {
+    "id": 530007897,
+    "active": true,
+    "description": "за товари «Премія»™, «Повна Чаша»™, страви кулінарії та випічку «Крафтяр»™",
+    "beginDate": "2026-08-09",
+    "endDate": "2026-08-15"
+  },
+  {
+    "id": 518643567,
+    "active": true,
+    "description": "на онлайн чек",
+    "beginDate": "2026-08-04",
+    "endDate": "2026-08-31"
+  }
+]

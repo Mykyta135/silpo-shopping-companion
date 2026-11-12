@@ -1,0 +1,713 @@
+[
+  {
+    "createdAt": "2026-08-08T16:28:01",
+    "sumReg": 4294.52,
+    "sumDiscount": 343.46,
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "products": [
+      {
+        "name": "Сир кисломолочний President Сирна традиція 5%",
+        "price": 199,
+        "quantity": 2,
+        "unit": "700г",
+        "catalogProduct": {
+          "id": "1f1562ff-21bb-6456-a4fb-7543ff9d987b",
+          "price": 199,
+          "slug": "syr-kyslomolochnyi-president-syrna-tradytsiia-5-1025816",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Тунець Iberica цілий у власному соку",
+        "price": 99,
+        "quantity": 5,
+        "unit": "150г",
+        "catalogProduct": {
+          "id": "1ee5d8f3-ae6a-6408-a221-5f16edf6df93",
+          "price": 99,
+          "slug": "tunets-iberica-tsilyi-u-vlasnomu-soku-921592",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Квасоля в томатному соусі консервована",
+        "price": 46.99,
+        "quantity": 4,
+        "unit": "480г",
+        "catalogProduct": null
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.49,
+        "quantity": 2,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "1edb0366-9962-6c76-b609-9f7fd78fecf4",
+          "price": 9.99,
+          "slug": "paket-silpo-paket-z-paketiv-18-kg-888377",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Тунець Iberica салатний у власному соку",
+        "price": 78.99,
+        "quantity": 5,
+        "unit": "150г",
+        "catalogProduct": {
+          "id": "1ee5d8f3-b693-69e0-a2bc-4b2fda6901d0",
+          "price": 78.99,
+          "slug": "tunets-iberica-salatnyi-u-vlasnomu-soku-921594",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка Домашні С0",
+        "price": 56.99,
+        "quantity": 2,
+        "unit": "10шт",
+        "catalogProduct": {
+          "id": "1ed07646-a187-6b0c-88ab-dd63763181f9",
+          "price": 62.69,
+          "slug": "yaitsia-kuriachi-kvochka-domashni-s0-648548",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Каррі Премія",
+        "price": 27.49,
+        "quantity": 1,
+        "unit": "20г",
+        "catalogProduct": {
+          "id": "1ed075f3-3b54-6054-b049-dd63763181f9",
+          "price": 27.49,
+          "slug": "pryprava-karri-premiia-320504",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Приправа Премія до курки",
+        "price": 24.99,
+        "quantity": 1,
+        "unit": "20г",
+        "catalogProduct": {
+          "id": "1ed075f3-3b55-68dc-a592-dd63763181f9",
+          "price": 24.99,
+          "slug": "pryprava-premiia-do-kurky-320511",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Приправа Премія до риби",
+        "price": 21.99,
+        "quantity": 1,
+        "unit": "20г",
+        "catalogProduct": {
+          "id": "1ed075f3-3b54-6b58-b38e-dd63763181f9",
+          "price": 21.99,
+          "slug": "pryprava-premiia-do-ryby-320507",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Куркума PREMIA мелена",
+        "price": 16.99,
+        "quantity": 1,
+        "unit": "20г",
+        "catalogProduct": {
+          "id": "1efa21ac-6e73-6212-b54a-83e521327e2d",
+          "price": 16.99,
+          "slug": "kurkuma-premia-melena-972391",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет біорозкладний 3кг 958358",
+        "price": 1.49,
+        "quantity": 2,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "1f0abac8-5501-6b06-a64e-9992f337b3cd",
+          "price": 1.49,
+          "slug": "paket-biorozkladnyi-3-kg-958358-958358",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Минтай Філе с/м  В ГЛАЗУРІ",
+        "price": 314,
+        "quantity": 0.932,
+        "unit": "кг",
+        "catalogProduct": {
+          "id": "1ed075e9-8e63-640c-9695-dd63763181f9",
+          "price": 314,
+          "slug": "myntai-file-s-m-v-glazuri-165364",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хек філе с/м В ГЛАЗУРІ",
+        "price": 209,
+        "quantity": 0.544,
+        "unit": "кг",
+        "catalogProduct": null
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене малий лоток",
+        "price": 288.95,
+        "quantity": 2.085,
+        "unit": "кг",
+        "catalogProduct": {
+          "id": "1edcdaa9-c3c2-6edc-9c4e-6dbfaf07983e",
+          "price": 303.45,
+          "slug": "file-kuriache-epikur-okholodzhene-malyi-lotok-750297",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кеш'ю сушений",
+        "price": 129,
+        "quantity": 1,
+        "unit": "150г",
+        "catalogProduct": {
+          "id": "1efce1d7-a164-6a70-9c4e-25a12daa3fa1",
+          "price": 129,
+          "slug": "kesh-iu-sushenyi-975471",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кеш'ю смажений",
+        "price": 129,
+        "quantity": 1,
+        "unit": "150г",
+        "catalogProduct": {
+          "id": "1efce1d7-94e2-6658-a0bb-25a12daa3fa1",
+          "price": 129,
+          "slug": "kesh-iu-smazhenyi-975470",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Дезодорант спрей Old Spice WhiteWater",
+        "price": 184,
+        "quantity": 1,
+        "unit": "250мл",
+        "catalogProduct": {
+          "id": "1ed076a9-8b61-6c0c-915d-eb0bb71c4ffc",
+          "price": 179,
+          "slug": "aerozolnyi-dezodorant-old-spice-whitewater-892595",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 62.9,
+        "quantity": 0.636,
+        "unit": "кг",
+        "catalogProduct": {
+          "id": "1ed075db-ae9b-6f2a-bf1a-dd63763181f9",
+          "price": 65.42,
+          "slug": "banan-32485",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сочевиця Ситий двір червона колота ГП",
+        "price": 56.49,
+        "quantity": 5,
+        "unit": "500г",
+        "catalogProduct": {
+          "id": "1ed07694-9968-6220-86b5-5f148feebb3f",
+          "price": 56.49,
+          "slug": "sochevytsia-sytyi-dvir-chervona-kolota-856891",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Лохинa BlueBerry Club",
+        "price": 179,
+        "quantity": 1,
+        "unit": "500г",
+        "catalogProduct": {
+          "id": "1f04ef39-c34f-6956-b314-4b4921ee22c2",
+          "price": 179,
+          "slug": "lokhyna-blueberry-club-995862",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пластівці вівсяні Сквирянка ніжні п/п",
+        "price": 46.99,
+        "quantity": 3,
+        "unit": "400г",
+        "catalogProduct": {
+          "id": "1ed07670-8ce9-6a7c-bd15-bd2f9278424b",
+          "price": 46.99,
+          "slug": "plastivtsi-skvyrianka-vivsiani-nizhni-775456",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кетчуп Королівський смак Лагідний",
+        "price": 49.99,
+        "quantity": 1,
+        "unit": "540г",
+        "catalogProduct": {
+          "id": "1ee5286b-2a1c-6a40-b384-1b686b09beee",
+          "price": 49.99,
+          "slug": "ketchup-korolivskyi-smak-lagidnyi-936864",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Plant Protein Chocolate flavour",
+        "price": 159,
+        "quantity": 1,
+        "unit": "1л",
+        "catalogProduct": {
+          "id": "1ef34d4d-6d7f-6b38-b223-3ffc12b5aa98",
+          "price": 159,
+          "slug": "napii-soievyi-alpro-plant-protein-chocolate-flavour-959541",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Соус соєвий  Премія Теріякі  пастеризований",
+        "price": 69.99,
+        "quantity": 1,
+        "unit": "490мл",
+        "catalogProduct": {
+          "id": "1eff9d35-ba0d-6ace-a02c-21ce899afea2",
+          "price": 69.99,
+          "slug": "sous-soievyi-premiia-teriiaki-pasteryzovanyi-982165",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Олія оливкова Премія Pure суміш",
+        "price": 219,
+        "quantity": 1,
+        "unit": "250мл",
+        "catalogProduct": {
+          "id": "1ed075f5-cb45-6fa8-8552-dd63763181f9",
+          "price": 219,
+          "slug": "oliia-olyvkova-premiia-pure-sumish-353044",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-06-10T15:01:51",
+    "sumReg": 665,
+    "sumDiscount": 45.23,
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "products": [
+      {
+        "name": "Крупа перлова Ситий двір №1",
+        "price": 29.99,
+        "quantity": 1,
+        "unit": "1кг",
+        "catalogProduct": {
+          "id": "1ef61a31-df73-6af6-9c16-ffddab862a39",
+          "price": 38.99,
+          "slug": "krupa-perlova-sytyi-dvir-1-961186",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Агробізнес Гречаний нарізаний",
+        "price": 36.99,
+        "quantity": 1,
+        "unit": "350г",
+        "catalogProduct": {
+          "id": "1edbc59f-6c1d-61a2-855c-1df4cd9fb6b0",
+          "price": 39.89,
+          "slug": "khlib-agrobiznes-grechanyi-narizanyi-920574",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Приправа Повна Чаша універсальна",
+        "price": 28.99,
+        "quantity": 1,
+        "unit": "200г",
+        "catalogProduct": null
+      },
+      {
+        "name": "Лист лавровий Премія сухий",
+        "price": 18.99,
+        "quantity": 1,
+        "unit": "10г",
+        "catalogProduct": {
+          "id": "1f0f336c-6d78-686c-ae7d-2fa60c2c4b18",
+          "price": 19.49,
+          "slug": "lyst-lavrovyi-premiia-sukhyi-1014124",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Приправа Премія до курки",
+        "price": 25.99,
+        "quantity": 1,
+        "unit": "20г",
+        "catalogProduct": {
+          "id": "1ed075f3-3b55-68dc-a592-dd63763181f9",
+          "price": 24.99,
+          "slug": "pryprava-premiia-do-kurky-320511",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Приправа Eko розмарин",
+        "price": 12.49,
+        "quantity": 1,
+        "unit": "8г",
+        "catalogProduct": null
+      },
+      {
+        "name": "Перець Мрія чорний мелений",
+        "price": 18.49,
+        "quantity": 1,
+        "unit": "20г",
+        "catalogProduct": {
+          "id": "1ed075d7-8675-6b26-9db1-dd63763181f9",
+          "price": 14.99,
+          "slug": "perets-chornyi-mriia-melenyi-8058",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Суміш прянощів Мрія хмелі-сунелі по-грузинськи",
+        "price": 11.99,
+        "quantity": 1,
+        "unit": "20г",
+        "catalogProduct": null
+      },
+      {
+        "name": "Соус соєвий Премія Теріякі пастеризований",
+        "price": 39.99,
+        "quantity": 1,
+        "unit": "220мл",
+        "catalogProduct": {
+          "id": "1f01b1ba-7af2-62ae-a989-31eee7c9f835",
+          "price": 51.49,
+          "slug": "sous-soievyi-premiia-teriiaki-pasteryzovanyi-989084",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кетчуп PREMIA До шашлику д/п",
+        "price": 21.99,
+        "quantity": 1,
+        "unit": "250г",
+        "catalogProduct": {
+          "id": "1f068188-667a-6a22-8c3a-156ebb43c248",
+          "price": 28.99,
+          "slug": "ketchup-premia-do-shashlyku-d-p-993281",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене малий лоток",
+        "price": 289,
+        "quantity": 1.47,
+        "unit": "кг",
+        "catalogProduct": {
+          "id": "1edcdaa9-c3c2-6edc-9c4e-6dbfaf07983e",
+          "price": 303.45,
+          "slug": "file-kuriache-epikur-okholodzhene-malyi-lotok-750297",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-06-07T12:58:48",
+    "sumReg": 238.5,
+    "sumDiscount": 42.61,
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "products": [
+      {
+        "name": "Гриби шампіньйони Зелена Країна свіжі",
+        "price": 58.49,
+        "quantity": 1,
+        "unit": "450г",
+        "catalogProduct": {
+          "id": "1ed075f8-5bc8-62d6-a0bf-dd63763181f9",
+          "price": 84.99,
+          "slug": "gryby-shampiniony-zelena-kraina-svizhi-370658",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 12кг",
+        "price": 8.49,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "1edb260d-108a-6a24-a682-e990029622e2",
+          "price": 8.99,
+          "slug": "paket-silpo-paket-z-paketiv-12-kg-888376",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Крупа перлова Ситий двір №1",
+        "price": 29.99,
+        "quantity": 1,
+        "unit": "1кг",
+        "catalogProduct": {
+          "id": "1ef61a31-df73-6af6-9c16-ffddab862a39",
+          "price": 38.99,
+          "slug": "krupa-perlova-sytyi-dvir-1-961186",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Шлунок м'язової курчати-бройлера н/ф охолодж в/у",
+        "price": 84.9,
+        "quantity": 0.822,
+        "unit": "кг",
+        "catalogProduct": null
+      },
+      {
+        "name": "Пакет біорозкладний 3кг 958358",
+        "price": 1.49,
+        "quantity": 3,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "1f0abac8-5501-6b06-a64e-9992f337b3cd",
+          "price": 1.49,
+          "slug": "paket-biorozkladnyi-3-kg-958358-958358",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Цибуля ріпчаста жовта",
+        "price": 15.49,
+        "quantity": 0.762,
+        "unit": "кг",
+        "catalogProduct": null
+      },
+      {
+        "name": "Морква",
+        "price": 34.49,
+        "quantity": 0.652,
+        "unit": "кг",
+        "catalogProduct": null
+      },
+      {
+        "name": "Капуста молода",
+        "price": 18.99,
+        "quantity": 1.724,
+        "unit": "кг",
+        "catalogProduct": null
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-05-23T10:26:49",
+    "sumReg": 482,
+    "sumDiscount": 36.4,
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "products": [
+      {
+        "name": "Вермішель Reeva швидк/пригот зі смаком курки",
+        "price": 13.99,
+        "quantity": 1,
+        "unit": "60г",
+        "catalogProduct": {
+          "id": "1ed8b654-c922-6d6e-98ef-5fae0615babb",
+          "price": 19.99,
+          "slug": "vermishel-shvydkogo-prygotuvannia-reeva-zi-smakom-kurky-918547",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Гриби печериці для фарширування",
+        "price": 99,
+        "quantity": 1,
+        "unit": "450г",
+        "catalogProduct": {
+          "id": "1ed07663-29dd-6896-97ac-c1af87aa927f",
+          "price": 94.99,
+          "slug": "gryby-pecherytsi-dlia-farshyruvannia-735095",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Тим'ян",
+        "price": 59.99,
+        "quantity": 1,
+        "unit": "50г",
+        "catalogProduct": {
+          "id": "1ed1d598-5ed6-66f2-a818-470d31b9e7da",
+          "price": 59.99,
+          "slug": "tym-ian-327731",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Капуста пекінська рання",
+        "price": 74.49,
+        "quantity": 0.982,
+        "unit": "кг",
+        "catalogProduct": null
+      },
+      {
+        "name": "Вершки Простонаше 20% т/б",
+        "price": 39.99,
+        "quantity": 1,
+        "unit": "200г",
+        "catalogProduct": {
+          "id": "1ee3dba8-944e-66d6-ad60-57aa32a17f1d",
+          "price": 49.49,
+          "slug": "vershky-prostonashe-20-t-b-935150",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет біорозкладний 3кг 958358",
+        "price": 1.49,
+        "quantity": 3,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "1f0abac8-5501-6b06-a64e-9992f337b3cd",
+          "price": 1.49,
+          "slug": "paket-biorozkladnyi-3-kg-958358-958358",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Морква мита",
+        "price": 34.64,
+        "quantity": 0.63,
+        "unit": "кг",
+        "catalogProduct": null
+      },
+      {
+        "name": "Часник",
+        "price": 159,
+        "quantity": 0.04,
+        "unit": "кг",
+        "catalogProduct": {
+          "id": "1ed075db-b311-60a0-b32a-dd63763181f9",
+          "price": 159,
+          "slug": "chasnyk-32595",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Цибуля ріпчаста жовта",
+        "price": 10.99,
+        "quantity": 0.276,
+        "unit": "кг",
+        "catalogProduct": null
+      },
+      {
+        "name": "Свинячий окіст без кістки охолоджений",
+        "price": 209.9,
+        "quantity": 0.742,
+        "unit": "кг",
+        "catalogProduct": null
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.49,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "1edb0366-9962-6c76-b609-9f7fd78fecf4",
+          "price": 9.99,
+          "slug": "paket-silpo-paket-z-paketiv-18-kg-888377",
+          "available": false,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  }
+]

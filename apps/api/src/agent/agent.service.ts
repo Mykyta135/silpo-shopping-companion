@@ -1,9 +1,8 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { createAnthropic } from '@ai-sdk/anthropic';
-import { dynamicTool, generateText, jsonSchema, stepCountIs, type ModelMessage, type ToolSet } from 'ai';
-import { isSilpoWriteTool } from '@silpo/shared';
-import { SilpoMcpService } from '../mcp/silpo-mcp.service.js';
+import { generateText, stepCountIs, type ModelMessage } from 'ai';
+import { McpToolsFactory } from './mcp-tools.factory.js';
 import { SILPO_SYSTEM_PROMPT } from './system-prompt.js';
 
 export interface AgentTurnResult {
@@ -21,7 +20,7 @@ export class AgentService {
   private readonly history = new Map<string, ModelMessage[]>();
 
   constructor(
-    private readonly mcp: SilpoMcpService,
+    private readonly toolsFactory: McpToolsFactory,
     config: ConfigService,
   ) {
     // Key is read from the environment — never hardcode or log it.
@@ -31,46 +30,9 @@ export class AgentService {
     this.modelId = config.get('AGENT_MODEL', 'claude-sonnet-5');
   }
 
-  /**
-   * Bridges the live MCP tool list into AI SDK tools.
-   *
-   * Schemas come from `tools/list` at runtime rather than being hardcoded, so the
-   * agent automatically picks up server-side changes to the 39 Silpo tools.
-   */
-  private async buildTools(sessionId: string): Promise<ToolSet> {
-    const tools = await this.mcp.listTools(sessionId);
-    const toolSet: ToolSet = {};
-
-    for (const t of tools) {
-      toolSet[t.name] = dynamicTool({
-        description: t.description ?? t.name,
-        inputSchema: jsonSchema(t.inputSchema as Parameters<typeof jsonSchema>[0]),
-        // State-changing tools pause for explicit guest approval.
-        needsApproval: isSilpoWriteTool(t.name),
-        execute: async (args) => {
-          this.logger.log(`tool_call ${t.name}`);
-          try {
-            return await this.mcp.callTool(
-              sessionId,
-              t.name,
-              args as Record<string, unknown>,
-            );
-          } catch (err) {
-            // Return the error to the model so it can recover (e.g. re-fetch
-            // cart context) rather than aborting the whole turn.
-            const message = err instanceof Error ? err.message : String(err);
-            this.logger.warn(`tool_error ${t.name}: ${message}`);
-            return { isError: true, error: message };
-          }
-        },
-      });
-    }
-
-    return toolSet;
-  }
-
   async chat(sessionId: string, message: string): Promise<AgentTurnResult> {
-    const tools = await this.buildTools(sessionId);
+    // State-changing tools pause for explicit guest approval in free-form chat.
+    const tools = await this.toolsFactory.build(sessionId);
     const messages = this.history.get(sessionId) ?? [];
     messages.push({ role: 'user', content: message });
 

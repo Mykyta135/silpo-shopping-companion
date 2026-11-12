@@ -1,0 +1,5493 @@
+[
+  {
+    "createdAt": "2025-08-09T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 1194.15,
+    "sumDiscount": 95.53,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кава Lavazza Crema e Aroma",
+        "price": 419,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-26-1050",
+          "price": 419,
+          "slug": "кава-lavazza-crema-e-aroma",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-08-14T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 85.48,
+    "sumDiscount": 6.84,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-08-19T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 513.46,
+    "sumDiscount": 41.08,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-08-24T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 197.16,
+    "sumDiscount": 15.77,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-08-28T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 321.5,
+    "sumDiscount": 25.72,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-09-02T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 423.46,
+    "sumDiscount": 33.88,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-09-07T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 453.66,
+    "sumDiscount": 36.29,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-09-11T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 590.48,
+    "sumDiscount": 47.24,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кава Lavazza Crema e Aroma",
+        "price": 419,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-26-1050",
+          "price": 419,
+          "slug": "кава-lavazza-crema-e-aroma",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-09-17T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 374.48,
+    "sumDiscount": 29.96,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-09-23T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 486.15,
+    "sumDiscount": 38.89,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-09-29T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 331.49,
+    "sumDiscount": 26.52,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-10-03T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 187.17,
+    "sumDiscount": 14.97,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-10-07T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 712.46,
+    "sumDiscount": 57,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-10-13T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 461.49,
+    "sumDiscount": 36.92,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кава Lavazza Crema e Aroma",
+        "price": 419,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-26-1050",
+          "price": 419,
+          "slug": "кава-lavazza-crema-e-aroma",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-10-18T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 566.16,
+    "sumDiscount": 45.29,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-10-23T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 374.48,
+    "sumDiscount": 29.96,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-10-27T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 85.48,
+    "sumDiscount": 6.84,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-10-31T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 722.17,
+    "sumDiscount": 57.77,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-11-05T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 269.48,
+    "sumDiscount": 21.56,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Дезодорант Old Spice WhiteWater",
+        "price": 184,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-31-1044",
+          "price": 152.86,
+          "slug": "дезодорант-old-spice-whitewater",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-11-11T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 470.47,
+    "sumDiscount": 37.64,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-11-16T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 766.17,
+    "sumDiscount": 61.29,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кава Lavazza Crema e Aroma",
+        "price": 419,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-26-1050",
+          "price": 419,
+          "slug": "кава-lavazza-crema-e-aroma",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-11-22T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 513.46,
+    "sumDiscount": 41.08,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-11-28T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 197.16,
+    "sumDiscount": 15.77,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-12-04T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 663.47,
+    "sumDiscount": 53.08,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-12-10T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 81.49,
+    "sumDiscount": 6.52,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-12-14T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 567.17,
+    "sumDiscount": 45.37,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кава Lavazza Crema e Aroma",
+        "price": 419,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-26-1050",
+          "price": 419,
+          "slug": "кава-lavazza-crema-e-aroma",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-12-19T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 470.47,
+    "sumDiscount": 37.64,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-12-23T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 337.18,
+    "sumDiscount": 26.97,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2025-12-27T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 380.48,
+    "sumDiscount": 30.44,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-01-01T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 454.48,
+    "sumDiscount": 36.36,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-01-07T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 197.16,
+    "sumDiscount": 15.77,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-01-11T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 347.97,
+    "sumDiscount": 27.84,
+    "products": [
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-01-16T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 783.49,
+    "sumDiscount": 62.68,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кава Lavazza Crema e Aroma",
+        "price": 419,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-26-1050",
+          "price": 419,
+          "slug": "кава-lavazza-crema-e-aroma",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-01-21T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 576.15,
+    "sumDiscount": 46.09,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-01-27T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 284.48,
+    "sumDiscount": 22.76,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-01-31T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 380.48,
+    "sumDiscount": 30.44,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-02-06T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 287.15,
+    "sumDiscount": 22.97,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-02-10T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 922.48,
+    "sumDiscount": 73.8,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кава Lavazza Crema e Aroma",
+        "price": 419,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-26-1050",
+          "price": 419,
+          "slug": "кава-lavazza-crema-e-aroma",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Гриль-решітка одноразова",
+        "price": 129,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-24-1043",
+          "price": 156.03,
+          "slug": "гриль-решітка-одноразова",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-02-14T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 148.17,
+    "sumDiscount": 11.85,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-02-18T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 171.48,
+    "sumDiscount": 13.72,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-02-23T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 622.47,
+    "sumDiscount": 49.8,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-02-28T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 195.17,
+    "sumDiscount": 15.61,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-03-04T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 423.47,
+    "sumDiscount": 33.88,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-03-09T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 124.48,
+    "sumDiscount": 9.96,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-03-13T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 683.17,
+    "sumDiscount": 54.65,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-03-17T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 842.47,
+    "sumDiscount": 67.4,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кава Lavazza Crema e Aroma",
+        "price": 419,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-26-1050",
+          "price": 419,
+          "slug": "кава-lavazza-crema-e-aroma",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-03-23T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 132.48,
+    "sumDiscount": 10.6,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-03-27T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 476.17,
+    "sumDiscount": 38.09,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-03-31T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 9.99,
+    "sumDiscount": 0.8,
+    "products": [
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-04-04T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 454.48,
+    "sumDiscount": 36.36,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Напій соєвий Alpro Chocolate",
+        "price": 89.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-28-1053",
+          "price": 106.09,
+          "slug": "напій-соєвий-alpro-chocolate",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-04-08T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 333.47,
+    "sumDiscount": 26.68,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-04-13T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 524.18,
+    "sumDiscount": 41.93,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кава Lavazza Crema e Aroma",
+        "price": 419,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-26-1050",
+          "price": 419,
+          "slug": "кава-lavazza-crema-e-aroma",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-04-17T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 413.48,
+    "sumDiscount": 33.08,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-04-23T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 394.18,
+    "sumDiscount": 31.53,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-04-28T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 423.47,
+    "sumDiscount": 33.88,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-05-04T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 347.17,
+    "sumDiscount": 27.77,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-05-09T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 572.47,
+    "sumDiscount": 45.8,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Лохина BlueBerry Club",
+        "price": 149,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1051",
+          "price": 159.44,
+          "slug": "лохина-blueberry-club",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-05-13T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 32.5,
+    "sumDiscount": 2.6,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-05-18T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 905.16,
+    "sumDiscount": 72.41,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кава Lavazza Crema e Aroma",
+        "price": 419,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-26-1050",
+          "price": 419,
+          "slug": "кава-lavazza-crema-e-aroma",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-05-23T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 134.47,
+    "sumDiscount": 10.76,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-05-28T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 563.49,
+    "sumDiscount": 45.08,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-06-02T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 197.16,
+    "sumDiscount": 15.77,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-06-08T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 374.48,
+    "sumDiscount": 29.96,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-06-12T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 144.18,
+    "sumDiscount": 11.53,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-06-16T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 573.48,
+    "sumDiscount": 45.88,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-06-21T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 842.47,
+    "sumDiscount": 67.4,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кава Lavazza Crema e Aroma",
+        "price": 419,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-26-1050",
+          "price": 419,
+          "slug": "кава-lavazza-crema-e-aroma",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-06-26T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 138.18,
+    "sumDiscount": 11.05,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-07-02T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 462.46,
+    "sumDiscount": 37,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Крупа перлова Ситий двір",
+        "price": 38.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-24-1050",
+          "price": 38.99,
+          "slug": "крупа-перлова-ситий-двір",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-07-07T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 612.47,
+    "sumDiscount": 49,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Крупа перлова Ситий двір",
+        "price": 38.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-24-1050",
+          "price": 38.99,
+          "slug": "крупа-перлова-ситий-двір",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-07-13T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 197.16,
+    "sumDiscount": 15.77,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-07-18T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 380.48,
+    "sumDiscount": 30.44,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-07-22T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 75.49,
+    "sumDiscount": 6.04,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-07-27T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 856.17,
+    "sumDiscount": 68.49,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Яйця курячі Квочка С0",
+        "price": 62.69,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-21-1071",
+          "price": 57.23,
+          "slug": "яйця-курячі-квочка-с0",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Філе куряче Епікур охолоджене",
+        "price": 289,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-29-1060",
+          "price": 289,
+          "slug": "філе-куряче-епікур-охолоджене",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Кава Lavazza Crema e Aroma",
+        "price": 419,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-26-1050",
+          "price": 419,
+          "slug": "кава-lavazza-crema-e-aroma",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-08-02T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 290.48,
+    "sumDiscount": 23.24,
+    "products": [
+      {
+        "name": "Хліб Київхліб Український",
+        "price": 32.5,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-25-1061",
+          "price": 44.95,
+          "slug": "хліб-київхліб-український",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Сир кисломолочний President 5%",
+        "price": 199,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-30-1057",
+          "price": 272.79,
+          "slug": "сир-кисломолочний-president-5-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  },
+  {
+    "createdAt": "2026-08-06T12:00:00.000",
+    "filialName": "вул. Сахарова академіка, буд. 45",
+    "cityName": "Львів",
+    "sumReg": 101.97,
+    "sumDiscount": 8.16,
+    "products": [
+      {
+        "name": "Молоко Яготинське 2.6%",
+        "price": 42.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-22-1052",
+          "price": 60.58,
+          "slug": "молоко-яготинське-2-6-",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Банан",
+        "price": 48.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-5-1041",
+          "price": 48.99,
+          "slug": "банан",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      },
+      {
+        "name": "Пакет Сільпо Пакет з Пакетів 18кг",
+        "price": 9.99,
+        "quantity": 1,
+        "unit": "шт",
+        "catalogProduct": {
+          "id": "cat-33-1055",
+          "price": 9.99,
+          "slug": "пакет-сільпо-пакет-з-пакетів-18кг",
+          "available": true,
+          "companyId": "1ec88c5d-a050-669c-8467-570a157f3e31",
+          "branchId": "1ee56cb2-afaa-60e6-8ee5-e17d00bb2c74"
+        }
+      }
+    ]
+  }
+]

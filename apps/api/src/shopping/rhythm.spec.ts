@@ -1,0 +1,252 @@
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import {
+  abandoned,
+  computeRhythms,
+  describeRhythm,
+  regulars,
+  runningOut,
+  type RhythmLine,
+} from './rhythm.js';
+
+function order(createdAt: string, names: string[]) {
+  return {
+    createdAt,
+    products: names.map((name): RhythmLine => ({ name, price: 10 })),
+  };
+}
+
+const NOW = new Date('2026-08-09T00:00:00.000Z');
+
+describe('computeRhythms', () => {
+  it('measures the average gap between purchases', () => {
+    const rhythms = computeRhythms(
+      [
+        order('2026-07-01T10:00:00.000Z', ['Молоко']),
+        order('2026-07-11T10:00:00.000Z', ['Молоко']),
+        order('2026-07-21T10:00:00.000Z', ['Молоко']),
+      ],
+      NOW,
+    );
+
+    expect(rhythms[0].purchaseCount).toBe(3);
+    expect(rhythms[0].averageGapDays).toBeCloseTo(10, 1);
+    expect(rhythms[0].daysSinceLast).toBeCloseTo(18.6, 0);
+  });
+
+  it('counts one trip once even if the product is listed twice', () => {
+    const rhythms = computeRhythms(
+      [order('2026-07-01T10:00:00.000Z', ['Хліб', 'Хліб'])],
+      NOW,
+    );
+    expect(rhythms[0].purchaseCount).toBe(1);
+  });
+
+  it('refuses to infer a rhythm from a single purchase', () => {
+    const rhythms = computeRhythms(
+      [order('2026-08-01T10:00:00.000Z', ['Разова річ'])],
+      NOW,
+    );
+
+    expect(rhythms[0].confidence).toBe('none');
+    expect(rhythms[0].averageGapDays).toBeUndefined();
+    // Never claim a one-off purchase is running out.
+    expect(rhythms[0].likelyRunningOut).toBe(false);
+  });
+
+  it('caps confidence at low when there is only one gap', () => {
+    const rhythms = computeRhythms(
+      [
+        order('2026-07-01T10:00:00.000Z', ['Річ']),
+        order('2026-07-08T10:00:00.000Z', ['Річ']),
+      ],
+      NOW,
+    );
+    // Two purchases look tidy but prove nothing.
+    expect(rhythms[0].confidence).toBe('low');
+  });
+
+  it('rates consistent buying higher than erratic buying', () => {
+    const steady = computeRhythms(
+      [
+        order('2026-06-01T10:00:00.000Z', ['Рівне']),
+        order('2026-06-11T10:00:00.000Z', ['Рівне']),
+        order('2026-06-21T10:00:00.000Z', ['Рівне']),
+        order('2026-07-01T10:00:00.000Z', ['Рівне']),
+      ],
+      NOW,
+    );
+    const erratic = computeRhythms(
+      [
+        order('2026-06-01T10:00:00.000Z', ['Хаотичне']),
+        order('2026-06-08T10:00:00.000Z', ['Хаотичне']),
+        order('2026-06-20T10:00:00.000Z', ['Хаотичне']),
+        order('2026-07-25T10:00:00.000Z', ['Хаотичне']),
+      ],
+      NOW,
+    );
+
+    expect(steady[0].confidence).toBe('high');
+    // Gaps of 7, 12 and 35 days are too scattered to call a rhythm.
+    expect(erratic[0].confidence).toBe('medium');
+  });
+
+  it('discards same-run top-ups as noise rather than treating them as a cycle', () => {
+    const rhythms = computeRhythms(
+      [
+        order('2026-06-01T10:00:00.000Z', ['Крупа']),
+        order('2026-06-03T10:00:00.000Z', ['Крупа']), // 2 days — a top-up
+        order('2026-06-25T10:00:00.000Z', ['Крупа']),
+      ],
+      NOW,
+    );
+
+    // Only the 22-day gap survives, so the cycle is not reported as ~12 days.
+    expect(rhythms[0].averageGapDays).toBeGreaterThan(15);
+  });
+});
+
+describe('runningOut', () => {
+  it('flags a regular whose usual gap has elapsed', () => {
+    const rhythms = computeRhythms(
+      [
+        order('2026-07-01T10:00:00.000Z', ['Прострочене', 'Свіже']),
+        order('2026-07-11T10:00:00.000Z', ['Прострочене']),
+        order('2026-08-08T10:00:00.000Z', ['Свіже']),
+      ],
+      NOW,
+    );
+
+    const due = runningOut(rhythms);
+    expect(due.map((r) => r.title)).toEqual(['Прострочене']);
+  });
+
+  it('never suggests something bought only once', () => {
+    const rhythms = computeRhythms(
+      [order('2026-01-01T10:00:00.000Z', ['Давня разова річ'])],
+      NOW,
+    );
+    expect(runningOut(rhythms)).toHaveLength(0);
+  });
+});
+
+describe('describeRhythm', () => {
+  it('hedges the wording when confidence is low', () => {
+    const [high] = computeRhythms(
+      [
+        order('2026-06-01T10:00:00.000Z', ['A']),
+        order('2026-06-11T10:00:00.000Z', ['A']),
+        order('2026-06-21T10:00:00.000Z', ['A']),
+        order('2026-07-01T10:00:00.000Z', ['A']),
+      ],
+      NOW,
+    );
+    const [low] = computeRhythms(
+      [
+        order('2026-06-01T10:00:00.000Z', ['B']),
+        order('2026-06-11T10:00:00.000Z', ['B']),
+      ],
+      NOW,
+    );
+    const [once] = computeRhythms([order('2026-06-01T10:00:00.000Z', ['C'])], NOW);
+
+    expect(describeRhythm(high)).toBe('береш кожні ~10 дн.');
+    expect(describeRhythm(low)).toContain('двічі');
+    expect(describeRhythm(once)).toBe('брав один раз');
+  });
+});
+
+describe('on a full year of history', () => {
+  /**
+   * The live test account has only 4 receipts — far too thin to tell a working
+   * algorithm from a broken one. This fixture carries a year of trips with
+   * known cycles, generated by __fixtures__/generate-history.mjs.
+   */
+  const orders = JSON.parse(
+    readFileSync(join(__dirname, '__fixtures__/synthetic-history.json'), 'utf8'),
+  ) as { createdAt: string; products: RhythmLine[] }[];
+
+  /** Real cycles the generator used, in days. */
+  const TRUTH: Record<string, number> = {
+    'Хліб Київхліб Український': 5,
+    'Пакет Сільпо Пакет з Пакетів 18кг': 6,
+    'Молоко Яготинське 2.6%': 7,
+    Банан: 9,
+    'Філе куряче Епікур охолоджене': 10,
+    'Яйця курячі Квочка С0': 14,
+    'Сир кисломолочний President 5%': 21,
+    'Кава Lavazza Crema e Aroma': 30,
+  };
+
+  const rhythms = computeRhythms(orders, NOW);
+
+  it('recovers every real cycle to within 20%', () => {
+    for (const [title, realCycle] of Object.entries(TRUTH)) {
+      const found = rhythms.find((r) => r.title === title);
+      expect(found).toBeDefined();
+      const error = Math.abs((found!.averageGapDays ?? 0) - realCycle) / realCycle;
+      expect(error).toBeLessThan(0.2);
+    }
+  });
+
+  it('rates well-established staples as high confidence', () => {
+    for (const title of Object.keys(TRUTH)) {
+      expect(rhythms.find((r) => r.title === title)?.confidence).toBe('high');
+    }
+  });
+
+  it('never treats a one-off purchase as a rhythm', () => {
+    const oneOffs = ['Дезодорант Old Spice WhiteWater', 'Лохина BlueBerry Club'];
+    for (const title of oneOffs) {
+      expect(rhythms.find((r) => r.title === title)?.confidence).toBe('none');
+    }
+  });
+
+  it('does not read a top-up run as a three-day cycle', () => {
+    // Bought twice, three days apart — gaps below the noise floor are dropped.
+    const topUp = rhythms.find((r) => r.title === 'Крупа перлова Ситий двір');
+    expect(topUp?.confidence).toBe('low');
+    expect(topUp?.averageGapDays ?? 0).toBeGreaterThanOrEqual(5);
+  });
+
+  it('excludes abandoned products from the shopping list', () => {
+    // A soy drink unbought for 127 days on a 12-day cycle is dropped, not due.
+    const due = runningOut(rhythms).map((r) => r.title);
+    expect(due).not.toContain('Напій соєвий Alpro Chocolate');
+    expect(abandoned(rhythms).map((r) => r.title)).toContain(
+      'Напій соєвий Alpro Chocolate',
+    );
+  });
+
+  it('ranks by cycles overdue, not by raw days', () => {
+    const due = runningOut(rhythms);
+    expect(due.length).toBeGreaterThan(0);
+
+    for (let i = 1; i < due.length; i += 1) {
+      const previous = due[i - 1].daysSinceLast / (due[i - 1].averageGapDays || 1);
+      const current = due[i].daysSinceLast / (due[i].averageGapDays || 1);
+      expect(previous).toBeGreaterThanOrEqual(current);
+    }
+  });
+});
+
+describe('on real receipts', () => {
+  const receipts = JSON.parse(
+    readFileSync(join(__dirname, '__fixtures__/real-receipts.json'), 'utf8'),
+  ) as { createdAt: string; products: RhythmLine[] }[];
+
+  it('identifies the staples visible on the live account', () => {
+    const rhythms = computeRhythms(receipts, NOW);
+    const staples = regulars(rhythms).map((r) => r.title.toLowerCase());
+
+    // Bags appear in 3 of the 4 receipts — the clearest repeat on this account.
+    expect(staples.some((t) => t.includes('пакет'))).toBe(true);
+    expect(regulars(rhythms).length).toBeGreaterThan(0);
+  });
+
+  it('keeps confidence honest on a four-receipt history', () => {
+    const rhythms = computeRhythms(receipts, NOW);
+    // Nothing on this account has enough history to be called 'high'.
+    expect(rhythms.every((r) => r.confidence !== 'high')).toBe(true);
+  });
+});
