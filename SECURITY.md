@@ -21,7 +21,7 @@ No secrets were found in the code or history.
 
 - The session id is not tied to a user login yet, and the Silpo OAuth flow is not bound to the device that started it (needs a nonce cookie and a single-use `state`).
 - OAuth tokens are stored in a local file; no rate limit on the AI endpoints.
-- Test fixtures include anonymised-enough real receipts from my own account, kept on purpose to test parsing against real data.
+- Test fixtures include a few real receipts and coupons from my own account, kept on purpose to test parsing against real data.
 
 ## Reporting
 
