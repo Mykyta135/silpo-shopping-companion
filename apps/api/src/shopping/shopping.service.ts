@@ -1,4 +1,9 @@
-import { Injectable, Logger, NotFoundException } from '@nestjs/common';
+import {
+  BadRequestException,
+  Injectable,
+  Logger,
+  NotFoundException,
+} from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { createAnthropic } from '@ai-sdk/anthropic';
 import { generateText, stepCountIs, tool, type ToolSet } from 'ai';
@@ -19,6 +24,11 @@ import { McpToolsFactory } from '../agent/mcp-tools.factory.js';
 import { SilpoMcpService } from '../mcp/silpo-mcp.service.js';
 import { unwrapToolResult } from './receipts.js';
 import { ListStore } from './list.store.js';
+
+/** Bounds for guest input that reaches agent prompts and the real Silpo cart. */
+export const MAX_TITLE_LENGTH = 120;
+export const MAX_QUANTITY = 50;
+export const MAX_LIST_ITEMS = 60;
 import {
   expiringSoon,
   rankCoupons,
@@ -117,8 +127,11 @@ export class ShoppingService {
     let submitted: T | undefined;
 
     const mcpTools = await this.toolsFactory.build(sessionId, {
-      // The guest triggered this explicitly; cart writes are not part of these
-      // flows, so a second confirmation round-trip would only add latency.
+      // These flows only read: the cart is filled by deterministic code after
+      // the guest taps «Зібрати кошик». Their prompts include untrusted text
+      // (list titles, coupon and product descriptions), so they get read tools
+      // only — an injected instruction has nothing to call that changes data.
+      readOnly: true,
       requireApproval: false,
       onToolCall: (name) => toolCalls.push(name),
     });
@@ -614,11 +627,22 @@ export class ShoppingService {
         }
       }
       if (patch.add?.title) {
+        // Bounded: the title is replayed into agent prompts and the quantity
+        // ends up in the real Silpo cart.
+        const title = String(patch.add.title).trim().slice(0, MAX_TITLE_LENGTH);
+        const quantity = Number(patch.add.quantity ?? 1);
+        if (!title) throw new BadRequestException('title is empty');
+        if (!Number.isInteger(quantity) || quantity < 1 || quantity > MAX_QUANTITY) {
+          throw new BadRequestException(`quantity must be an integer 1–${MAX_QUANTITY}`);
+        }
+        if (list.items.length >= MAX_LIST_ITEMS) {
+          throw new BadRequestException(`a list holds at most ${MAX_LIST_ITEMS} items`);
+        }
         list.items.push({
           id: `item-${Date.now()}`,
-          title: patch.add.title,
-          query: patch.add.title,
-          quantity: patch.add.quantity ?? 1,
+          title,
+          query: title,
+          quantity,
           unit: patch.add.unit ?? 'шт',
           zone: resolveZone(patch.add.title),
           source: 'guest',

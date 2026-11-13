@@ -1,6 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { dynamicTool, jsonSchema, type ToolSet } from 'ai';
-import { isSilpoWriteTool } from '@silpo/shared';
+import { isSilpoReadTool, isSilpoWriteTool } from '@silpo/shared';
 import { SilpoMcpService } from '../mcp/silpo-mcp.service.js';
 
 /**
@@ -23,19 +23,24 @@ export class McpToolsFactory {
    *   action by tapping «Зібрати кошик», so a second prompt is redundant.
    * @param onToolCall Invoked for each tool call, so callers can surface which
    *   MCP tools ran.
+   * @param readOnly Expose only read tools. Used by flows whose prompts carry
+   *   untrusted text (list titles, coupon and product descriptions): even a
+   *   successful prompt injection there has no tool that changes the account.
    */
   async build(
     sessionId: string,
     options: {
       requireApproval?: boolean;
+      readOnly?: boolean;
       onToolCall?: (toolName: string) => void;
     } = {},
   ): Promise<ToolSet> {
-    const { requireApproval = true, onToolCall } = options;
+    const { requireApproval = true, readOnly = false, onToolCall } = options;
     const tools = await this.mcp.listTools(sessionId);
     const toolSet: ToolSet = {};
 
     for (const t of tools) {
+      if (readOnly && !isSilpoReadTool(t.name)) continue;
       toolSet[t.name] = dynamicTool({
         description: t.description ?? t.name,
         inputSchema: jsonSchema(t.inputSchema as Parameters<typeof jsonSchema>[0]),

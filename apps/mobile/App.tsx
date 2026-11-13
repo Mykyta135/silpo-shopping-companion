@@ -19,6 +19,7 @@ import {
   resetList,
   sendEvent,
 } from './src/api';
+import { getSessionId } from './src/session';
 import { CompanionScreen } from './src/screens/CompanionScreen';
 import { ListBuilderScreen } from './src/screens/ListBuilderScreen';
 import { MapScreen } from './src/screens/MapScreen';
@@ -32,10 +33,10 @@ import type {
 } from './src/types';
 
 /**
- * Opaque per-install session id; the MCP token for it lives only on the server.
- * Overridable so a dev machine can point at an already-authorized session.
+ * Random per-install session id (see src/session.ts); the MCP token for it
+ * lives only on the server. Resolved on the first load, before any request.
  */
-const SESSION_ID = process.env.EXPO_PUBLIC_SESSION_ID ?? 'demo-session-1';
+let SESSION_ID = '';
 
 export default function App() {
   const [data, setData] = useState<ListResponse>();
@@ -51,6 +52,7 @@ export default function App() {
   const load = useCallback(async () => {
     setLoading(true);
     try {
+      SESSION_ID ||= await getSessionId();
       const status = await getAuthStatus(SESSION_ID);
       if (!status.authorized) {
         setAuthUrl(status.authorizationUrl);

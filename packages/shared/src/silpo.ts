@@ -33,22 +33,19 @@ export interface SilpoLoyaltyState {
 }
 
 /**
- * Tools that mutate guest state. The agent must confirm with the user before
- * calling any of these — see AGENT_WRITE_TOOLS usage in the agent module.
+ * Read-only Silpo MCP tools are recognised by name (`silpo_get_*`,
+ * `silpo_find_*`, …). Tools are loaded live from the MCP server, so the check
+ * fails closed: any other name — including a write tool Silpo adds later — is
+ * treated as state-changing and needs the guest's approval.
  */
-export const SILPO_WRITE_TOOLS = [
-  'silpo_add_or_update_favorite_products',
-  'silpo_add_or_update_cart_products',
-  'silpo_remove_cart_products',
-  'silpo_clear_shopping_cart',
-  'silpo_update_shopping_cart',
-  'silpo_add_or_update_certificates',
-] as const;
+const SILPO_READ_TOOL = /^silpo_(get|find|list|search)_[a-z0-9_]+$/;
 
-export type SilpoWriteTool = (typeof SILPO_WRITE_TOOLS)[number];
+export function isSilpoReadTool(name: string): boolean {
+  return SILPO_READ_TOOL.test(name);
+}
 
-export function isSilpoWriteTool(name: string): name is SilpoWriteTool {
-  return (SILPO_WRITE_TOOLS as readonly string[]).includes(name);
+export function isSilpoWriteTool(name: string): boolean {
+  return !isSilpoReadTool(name);
 }
 
 /** Tools that require cart context (branchId/deliveryType/timeslot) to be resolved first. */

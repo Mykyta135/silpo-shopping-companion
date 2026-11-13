@@ -65,6 +65,21 @@ describe('Silpo tool classification', () => {
     expect(isSilpoWriteTool('silpo_get_my_shopping_cart')).toBe(false);
   });
 
+  it('fails closed: unknown or new tools count as writes', () => {
+    // Address writes were missing from the old denylist; future tools too.
+    expect(isSilpoWriteTool('silpo_add_or_update_addresses')).toBe(true);
+    expect(isSilpoWriteTool('silpo_delete_address')).toBe(true);
+    expect(isSilpoWriteTool('some_other_tool')).toBe(true);
+    expect(isSilpoWriteTool('silpo_get_')).toBe(true);
+    for (const read of [
+      'silpo_get_my_coupons',
+      'silpo_find_products_batch',
+      'silpo_get_time_slots',
+    ]) {
+      expect(isSilpoWriteTool(read)).toBe(false);
+    }
+  });
+
   it('flags tools that need cart context resolved first', () => {
     expect(isCartScopedTool('silpo_find_products_batch')).toBe(true);
     expect(isCartScopedTool('silpo_get_my_profile')).toBe(false);

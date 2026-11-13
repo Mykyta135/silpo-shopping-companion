@@ -2,7 +2,9 @@
 
 **In English.** An in-store shopping companion built on the official MCP server of Silpo, a Ukrainian grocery chain, for the Silpo AI Factory hackathon (2026). It reads the shopper's real offline receipts, spots what got more expensive and which coupons actually fit, builds a list where every item carries a reason, and orders it by store zones along the walking route. In the store it reacts to what's ahead, at most one remark per zone, and it can fill the real Silpo cart but never places the order itself.
 
-Stack: NestJS 11 + `@modelcontextprotocol/sdk` + Vercel AI SDK (Claude) on the API, Expo / React Native app, Turborepo, shared types. 136 API tests (`npm test -w apps/api`). The rest of this README and the product docs are in Ukrainian.
+Stack: NestJS 11 + `@modelcontextprotocol/sdk` + Vercel AI SDK (Claude) on the API, Expo / React Native app, Turborepo, shared types. 140 unit tests in the API (`npm test -w apps/api`). The rest of this README and the product docs are in Ukrainian.
+
+**Security model (demo).** Every install gets its own random session id, kept in the Keychain/Keystore; the API rejects short or guessable ids. In chat, any Silpo tool that is not a known read tool needs the shopper's approval, so a write tool Silpo adds later is gated too. The list-building and in-aisle agents read untrusted text (list titles, coupons, product descriptions), so they only get read tools, and the cart is filled by plain code after the shopper taps the button. Known gaps before this could leave demo mode: the session id is not tied to a user login, the Silpo OAuth flow is not bound to the device that started it, tokens sit in a local file, and the AI endpoints have no rate limit.
 
 > **About the git history.** Built during the Silpo AI Factory hackathon in August 2026. The scaffold commit is from the hackathon; the rest of the code was committed in one go when I published the project in November 2026.
 
@@ -202,7 +204,13 @@ npm run test
 - `TokenStore` і `ListStore` — файлові (mode `0600`, gitignored). Інтерфейс
   навмисно вузький (`get`/`save`/`mutate`), тож заміна на Postgres торкається
   одного файлу. Своїх даних майже немає — усе тягнеться з «Сільпо» через MCP.
-- `sessionId` поки не автентифікований — прив'язати до реальної сесії
-  користувача перед будь-яким виходом за межі демо.
+- `sessionId` — випадковий на кожну інсталяцію (Keychain/Keystore), API
+  відхиляє короткі й передбачувані id. Але це ще не автентифікація: перед
+  виходом за межі демо прив'язати його до логіну користувача, а OAuth-флоу
+  «Сільпо» — до пристрою, що його почав (nonce у cookie + одноразовий `state`).
+- Інструменти MCP, яких немає в переліку читання, вважаються записом і чекають
+  підтвердження; агенти, що читають чужий текст (назви, купони), отримують
+  тільки інструменти читання.
+- Немає rate limit на AI-ендпоінтах; CORS — лише з `CORS_ORIGINS`.
 - Порядок зон — **модель типового магазину**, а не планограма конкретного.
   Подавати як розумний маршрут, не як точну навігацію.

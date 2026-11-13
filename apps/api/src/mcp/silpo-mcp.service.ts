@@ -5,6 +5,7 @@ import { StreamableHTTPClientTransport } from '@modelcontextprotocol/sdk/client/
 import { UnauthorizedError } from '@modelcontextprotocol/sdk/client/auth.js';
 import { SilpoAuthProvider } from './silpo-auth.provider.js';
 import { TokenStore } from './token-store.js';
+import { sessionFingerprint } from '../session-id.guard.js';
 
 export interface McpTool {
   name: string;
@@ -90,7 +91,7 @@ export class SilpoMcpService implements OnModuleDestroy {
 
     const session: Session = { client, transport, provider };
     this.sessions.set(sessionId, session);
-    this.logger.log(`MCP session connected: ${sessionId}`);
+    this.logger.log(`MCP session connected: ${sessionFingerprint(sessionId)}`);
     return session;
   }
 
@@ -109,7 +110,9 @@ export class SilpoMcpService implements OnModuleDestroy {
       await transport.close().catch(() => undefined);
     }
     await this.store.clear(sessionId, 'verifier');
-    this.logger.log(`Authorization completed for session ${sessionId}`);
+    this.logger.log(
+      `Authorization completed for session ${sessionFingerprint(sessionId)}`,
+    );
   }
 
   async isAuthorized(sessionId: string): Promise<boolean> {
