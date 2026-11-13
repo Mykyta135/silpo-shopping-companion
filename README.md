@@ -4,7 +4,7 @@
 
 Stack: NestJS 11 + `@modelcontextprotocol/sdk` + Vercel AI SDK (Claude) on the API, Expo / React Native app, Turborepo, shared types. 140 unit tests in the API (`npm test -w apps/api`). The rest of this README and the product docs are in Ukrainian.
 
-**Security model (demo).** Every install gets its own random session id, kept in the Keychain/Keystore; the API rejects short or guessable ids. In chat, any Silpo tool that is not a known read tool needs the shopper's approval, so a write tool Silpo adds later is gated too. The list-building and in-aisle agents read untrusted text (list titles, coupons, product descriptions), so they only get read tools, and the cart is filled by plain code after the shopper taps the button. Known gaps before this could leave demo mode: the session id is not tied to a user login, the Silpo OAuth flow is not bound to the device that started it, tokens sit in a local file, and the AI endpoints have no rate limit.
+**Security model (demo).** Every install gets its own random session id, kept in the Keychain/Keystore; the API rejects short or guessable ids. In chat, any Silpo tool that is not a known read tool needs the shopper's approval, so a write tool Silpo adds later is gated too. The list-building and in-aisle agents read untrusted text (list titles, coupons, product descriptions), so they only get read tools, and the cart is filled by plain code after the shopper taps the button. Known gaps before this could leave demo mode: the session id is not tied to a user login, and the Silpo OAuth flow is not bound to the device that started it. Tokens are encrypted at rest when `MCP_TOKEN_STORE_KEY` is set, and the AI endpoints are rate limited per session and per IP.
 
 > **About the git history.** Built during the Silpo AI Factory hackathon in August 2026. The scaffold commit is from the hackathon; the rest of the code was committed in one go when I published the project in November 2026.
 
@@ -201,7 +201,9 @@ npm run test
 
 ## Нотатки для продакшену
 
-- `TokenStore` і `ListStore` — файлові (mode `0600`, gitignored). Інтерфейс
+- `TokenStore` і `ListStore` — файлові (mode `0600`, gitignored). `TokenStore`
+  шифрує файл (AES-256-GCM), якщо задано `MCP_TOKEN_STORE_KEY`; без ключа токени
+  лежать відкритим JSON, і API попереджає про це на старті. Інтерфейс
   навмисно вузький (`get`/`save`/`mutate`), тож заміна на Postgres торкається
   одного файлу. Своїх даних майже немає — усе тягнеться з «Сільпо» через MCP.
 - `sessionId` — випадковий на кожну інсталяцію (Keychain/Keystore), API
@@ -211,6 +213,8 @@ npm run test
 - Інструменти MCP, яких немає в переліку читання, вважаються записом і чекають
   підтвердження; агенти, що читають чужий текст (назви, купони), отримують
   тільки інструменти читання.
-- Немає rate limit на AI-ендпоінтах; CORS — лише з `CORS_ORIGINS`.
+- AI-ендпоінти (чат, побудова списку, події в залі) мають rate limit: 30 на
+  хвилину на сесію й 120 на хвилину на IP, лічильники в пам'яті. CORS — лише з
+  `CORS_ORIGINS`.
 - Порядок зон — **модель типового магазину**, а не планограма конкретного.
   Подавати як розумний маршрут, не як точну навігацію.

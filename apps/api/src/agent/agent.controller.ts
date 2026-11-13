@@ -6,7 +6,9 @@ import {
   Post,
   Query,
   UnauthorizedException,
+  UseGuards,
 } from '@nestjs/common';
+import { ThrottlerGuard } from '@nestjs/throttler';
 import type { ChatRequest } from '@silpo/shared';
 import { SilpoAuthorizationRequired } from '../mcp/silpo-mcp.service.js';
 import { AgentService, type AgentTurnResult } from './agent.service.js';
@@ -16,6 +18,7 @@ export class AgentController {
   constructor(private readonly agent: AgentService) {}
 
   @Post('chat')
+  @UseGuards(ThrottlerGuard) // starts a paid LLM call, see ai-rate-limit.ts
   async chat(@Body() body: ChatRequest): Promise<AgentTurnResult> {
     if (!body?.sessionId || !body?.message) {
       throw new BadRequestException('sessionId and message are required');

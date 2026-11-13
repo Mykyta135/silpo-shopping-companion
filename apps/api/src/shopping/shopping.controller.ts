@@ -9,7 +9,9 @@ import {
   Query,
   ServiceUnavailableException,
   UnauthorizedException,
+  UseGuards,
 } from '@nestjs/common';
+import { ThrottlerGuard } from '@nestjs/throttler';
 import type {
   AddToCartRequest,
   AddToCartResponse,
@@ -34,6 +36,7 @@ export class ShoppingController {
 
   /** Phase 1: the agent assembles a list from receipts, coupons and prices. */
   @Post('list')
+  @UseGuards(ThrottlerGuard) // starts a paid LLM call, see ai-rate-limit.ts
   list(@Body() body: BuildListRequest): Promise<ListResponse> {
     if (!body?.sessionId) throw new BadRequestException('sessionId is required');
     return this.run(async () => {
@@ -83,6 +86,7 @@ export class ShoppingController {
 
   /** Phase 2: something happened in the aisle — the agent may react, or not. */
   @Post('event')
+  @UseGuards(ThrottlerGuard) // the agent may react with a paid LLM call
   event(@Body() body: AisleEventRequest): Promise<AisleEventResponse> {
     if (!body?.sessionId) throw new BadRequestException('sessionId is required');
     if (!body?.type) throw new BadRequestException('type is required');
