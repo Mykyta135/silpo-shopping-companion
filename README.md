@@ -4,6 +4,8 @@
 
 Stack: NestJS 11 + `@modelcontextprotocol/sdk` + Vercel AI SDK (Claude) on the API, Expo / React Native app, Turborepo, shared types. 136 API tests (`npm test -w apps/api`). The rest of this README and the product docs are in Ukrainian.
 
+> **About the git history.** Built during the Silpo AI Factory hackathon in August 2026. The scaffold commit is from the hackathon; the rest of the code was committed in one go when I published the project in November 2026.
+
 ---
 
 # «Супутник у залі» — Silpo AI Factory
